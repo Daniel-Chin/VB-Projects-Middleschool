@@ -1,0 +1,28 @@
+窗体前端显示
+Private Declare Function SetWindowPos& Lib "user32" (ByVal hwnd As Long, ByVal hWndInsertAfter As Long, ByVal X As Long, ByVal Y As Long, ByVal cx As Long, ByVal cy As Long, ByVal wFlags As Long)
+a = SetWindowPos(Me.hwnd, -1, 0, 0, 0, 0, 3) '-1为置前，-2 为正常，1为置后
+
+透明窗体
+Private Declare Function SetWindowLongA Lib "user32" (ByVal hwnd As Long, ByVal nIndex As Long, ByVal dwNewLong As Long) As Long
+Private Declare Function SetLayeredWindowAttributes Lib "user32" (ByVal hwnd As Long, ByVal crKey As Long, ByVal bAlpha As Byte, ByVal dwFlags As Long) As Long
+
+Private Sub Form_Load()
+    SetWindowLongA hwnd, -20, 524288
+    SetLayeredWindowAttributes hwnd, 0, 透明度, 2
+End Sub
+
+下载网页
+Private Declare Function URLDownloadToFile Lib "urlmon" Alias "URLDownloadToFileA" ( _
+    ByVal pCaller As Long, _
+    ByVal szURL As String, _
+    ByVal szFileName As String, _
+    ByVal dwReserved As Long, _
+    ByVal lpfnCB As Long _
+    ) As Long
+
+Public Function DownloadFile(ByVal strURL As String, ByVal strFile As String) As Boolean
+   Dim lngReturn As Long
+   lngReturn = URLDownloadToFile(0, strURL, strFile, 0, 0)
+   If lngReturn = 0 Then DownloadFile = True
+End Function
+

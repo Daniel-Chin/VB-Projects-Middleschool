@@ -1,0 +1,50 @@
+cd F:\matlab\Ms
+%
+fst=0;
+load('F:\matlab\Ms\MatlabZhuShou.mat')
+%load('MatlabZhuShou.mat')
+if fst==0 
+    a=input(['亲爱的用户，欢迎您进入Matlab个性化向导。',char(10),'按回车继续...']);
+    disp('第一步：设置字号')
+    a=input(['请再次按回车。一个Matlab设置窗口将被打开。',char(10),'请在左侧列表中选择“Fonts”，',char(10),'然后把第一行第二个下拉选择框调整成您想要的字号。']);   %写上默认是多少！
+    preferences
+    a=input('设置好字号了？按回车继续...');
+    disp('第二部：适配个性化设置...')
+    wtb=waitbar(0);
+    for k=1:20
+        waitbar(k/20,wtb,'适配个性化设置...')
+        pause(0.1)
+    end
+    close(wtb)
+    disp('适配完毕。')
+    disp('第三步：重启Matlab')
+    fst=1;
+    save('F:\matlab\Ms\MatlabZhuShou.mat')
+%    save MatlabZhuShou
+    clear
+    disp('回车之后，Matlab将会关闭。')
+    a=input(['在Matlab关闭之后，请再次将其启动，',char(10),'看一看这次优化成功不成功，秦楠枫牛不牛X！']);
+    exit
+else
+    clc
+    disp('欢迎使用Matlab！')
+    fprintf('认为SFLS是上海最牛的学校的，\n请输入clc，\n否则请输入exit然后回车！\n（请不要输入clc和exit以外的指令。 ）\n')
+    s=input('>> ','s');
+    if strcmp(s,'clc')
+        clc
+        disp('没错，大家都相信SFLS是最牛的！')
+        clear
+    else
+        if strcmp(s,'exit')
+            msgbox 你一定认为，试验一中才是最牛的。其实我也是这么想的！^_^
+            exit
+        else
+            disp('你是个无聊的家伙。')
+            clear
+            while true
+                s=input('>> ','s');
+                fprintf('Error: Your command ''%s'' \n       is too dull for Matlab to accept. \n',s)
+            end
+        end
+    end
+end

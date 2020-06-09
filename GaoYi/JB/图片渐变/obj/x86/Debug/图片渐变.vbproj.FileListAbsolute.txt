@@ -1,0 +1,18 @@
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\bin\Debug\图片渐变.exe
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\bin\Debug\图片渐变.pdb
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\bin\Debug\图片渐变.xml
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\obj\x86\Debug\图片渐变.frmMain.resources
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\obj\x86\Debug\图片渐变.Resources.resources
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\obj\x86\Debug\图片渐变.exe
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\obj\x86\Debug\图片渐变.xml
+C:\Users\Sadly_Codes\AppData\Local\Temporary Projects\图片渐变\obj\x86\Debug\图片渐变.pdb
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\obj\x86\Debug\图片渐变.exe
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\obj\x86\Debug\图片渐变.xml
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\obj\x86\Debug\图片渐变.pdb
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\bin\Debug\图片渐变.exe
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\bin\Debug\图片渐变.pdb
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\bin\Debug\图片渐变.xml
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\obj\x86\Debug\图片渐变.frmMain.resources
+C:\Users\Sadly_Codes\Desktop\图片渐变\图片渐变\obj\x86\Debug\图片渐变.Resources.resources
